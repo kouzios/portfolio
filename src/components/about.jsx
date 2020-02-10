@@ -24,7 +24,7 @@ class About extends Component {
                 </h3>
                 <Row className='entry'>
                   I'm a fourth year Software Engineering student at&nbsp;
-                  <a target="_blank" rel="noopener noreferrer" href='https://www.msoe.edu/'>
+                  <a target="_blank" title='Homepage for MSOE' rel="noopener noreferrer" href='https://www.msoe.edu/'>
                     Milwaukee School of Engineering!
                   </a>
                 </Row>
@@ -41,7 +41,7 @@ class About extends Component {
                     <u>upcoming graduate</u>
                   </OverlayTrigger>
                   , I'm looking for a job! If you need a website developer for a full-time position please&nbsp;
-                  <Link to='#contact'>
+                  <Link title='Secondary contact navigation link' to='#contact'>
                     contact me here
                   </Link>
                 </Row>

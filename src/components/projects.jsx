@@ -36,7 +36,7 @@ class Projects extends Component {
                     </h5>
                   </Row>
                   <Row className='d-flex justify-content-center'>
-                    <img src='discord_schedule.gif' alt='Telegram manual page bot gif'/>
+                    <img src='discord_schedule.gif' alt='Discord scheduling bot gif'/>
                   </Row>
                   <Row className='d-flex justify-content-center'>
                     <span>This is a discord bot that enables you to schedule weekly meetings at a specified time!</span>

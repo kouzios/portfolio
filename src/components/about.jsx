@@ -40,9 +40,9 @@ class About extends Component {
                   >
                     <u>upcoming graduate</u>
                   </OverlayTrigger>
-                  , I'm looking for a job! If you need a website developer for a full-time position please contact me&nbsp;
+                  , I'm looking for a job! If you need a website developer for a full-time position please&nbsp;
                   <Link to='#contact'>
-                    here
+                    contact me here
                   </Link>
                 </Row>
                 <Row className='extra mt-2 d-flex justify-content-center'>

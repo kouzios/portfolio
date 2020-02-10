@@ -12,7 +12,7 @@ class Header extends Component {
             <Navbar className='d-flex justify-content-around'>
                 <Navbar.Brand>
                     <Link title='Link to bring you to this very page' to=''>
-                        <img src="logo-96x96.png" alt="Matthew Kouzios" className="brand-logo"/>
+                        <img src="logo.png" alt="Matthew Kouzios" className="brand-logo"/>
                     </Link>
                 </Navbar.Brand>
                 <Nav>

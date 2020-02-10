@@ -1,0 +1,17 @@
+#about {
+    background-image:url('/hero.png');
+    height: calc(100vh - 100px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+#text {
+    background-image: linear-gradient(rgba(29, 24, 24, 0.75), rgba(29, 24, 24, 0.75));
+    color: white;
+    padding: 25px;
+}
+
+.entry {
+    margin-left: auto;
+}

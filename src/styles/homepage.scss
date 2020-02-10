@@ -1,9 +1,14 @@
+@import 'variable.scss';
+
 .section {
     border-bottom: 25px solid white;
     width: 100%;
     background-color: #fafafa;
-    padding: 20px 0px 20px 0px;
 }
+
+.primary-section {
+    padding: 20px 0px 20px 0px;
+} 
 
 #content {
     width: 100vw;

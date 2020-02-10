@@ -14,10 +14,10 @@ class Homepage extends Component {
             <Row className='section'>
                 <About/>
             </Row>
-            <Row className='section'>
+            <Row className='section primary-section'>
                 <Projects/>
             </Row>
-            <Row className='section'>
+            <Row className='section primary-section'>
                 <Contact/>
             </Row>
         </div>

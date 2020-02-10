@@ -45,6 +45,9 @@ class About extends Component {
                     here
                   </Link>
                 </Row>
+                <Row className='extra mt-2 d-flex justify-content-center'>
+                  (You can learn a little more about some of my projects being worked on below!)
+                </Row>
               </Col>
             </div>
           </Container>

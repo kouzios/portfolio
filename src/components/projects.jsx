@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row';
+
+import '../styles/projects.scss'
 
 class Projects extends Component {
     render() {
       return (
-        <div id='contact'>
-          <Container>
-            <p>
-                So, what have I done? THIS
-            </p>
-          </Container>
+        <div id='projects' className='d-flex justify-content-center'>
+          <Row>
+            <h1>Projecs!</h1>
+          </Row>
+          <Row>
+            <img src='telegram_man.gif' alt='Telegram manual page bot gif'/>
+          </Row>
+          <Row>
+            <img src='discord_schedule.gif' alt='Discord scheduling gif'/>
+          </Row>
         </div>
       );
     }

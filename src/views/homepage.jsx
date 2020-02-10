@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 
 import '../styles/homepage.scss'
 
@@ -14,12 +15,14 @@ class Homepage extends Component {
             <Row className='section'>
                 <About/>
             </Row>
-            <Row className='section'>
-                <Projects/>
-            </Row>
-            <Row className='section'>
-                <Contact/>
-            </Row>
+            <Container>
+                <Row className='section'>
+                    <Projects/>
+                </Row>
+                <Row className='section'>
+                    <Contact/>
+                </Row>
+            </Container>
         </div>
       );
     }

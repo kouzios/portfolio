@@ -24,7 +24,7 @@ const routing = (
     <Router>
         <Header/>
         <Switch>
-            <Route exact path="/" component={Homepage} />
+            <Route path="*" component={Homepage} />
         </Switch>
     </Router>
 )

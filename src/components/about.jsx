@@ -18,7 +18,10 @@ class About extends Component {
                   A little about me!
                 </h1>
                 <Row className='entry'>
-                  I'm a fourth year Software Engineering student at Milwaukee School of Engineering!
+                  I'm a fourth year Software Engineering student at&nbsp;
+                  <a href='https://www.msoe.edu/'>
+                    Milwaukee School of Engineering!
+                  </a>
                 </Row>
                 <Row className='entry'>
                   I spend my time on Website Development both in personal projects and Internships.

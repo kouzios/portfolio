@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Tooltip from 'react-bootstrap/Tooltip';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 
 import '../styles/about.scss'
 
@@ -14,12 +16,15 @@ class About extends Component {
           <Container>
             <div id='text'>
               <Col>
-                <h1>
-                  A little about me!
+                <h1 className='centered-text'>
+                  Hi, I'm Matthew Kouzios!
                 </h1>
+                <h3>
+                  Here's a little about me.
+                </h3>
                 <Row className='entry'>
                   I'm a fourth year Software Engineering student at&nbsp;
-                  <a href='https://www.msoe.edu/'>
+                  <a target="_blank" rel="noopener noreferrer" href='https://www.msoe.edu/'>
                     Milwaukee School of Engineering!
                   </a>
                 </Row>
@@ -27,7 +32,15 @@ class About extends Component {
                   I spend my time on Website Development both in personal projects and Internships.
                 </Row>
                 <Row className='entry'>
-                  If you are currently looking for a soon-to-graduate website developer for a full-time position please contact me&nbsp;
+                  And as an&nbsp;
+                  <OverlayTrigger
+                    placement="top"
+                    delay={{ show: 250, hide: 400 }}
+                    overlay={<Tooltip id='graduation'>B.S in Software Engineering expected: <b>May 23, 2020</b></Tooltip>}
+                  >
+                    <u>upcoming graduate</u>
+                  </OverlayTrigger>
+                  , I'm looking for a job! If you need a website developer for a full-time position please contact me&nbsp;
                   <Link to='#contact'>
                     here
                   </Link>

@@ -17,13 +17,13 @@ class Header extends Component {
                 </Navbar.Brand>
                 <Nav>
                     <Nav.Item>
-                        <Link to='#about'>About Me</Link>
+                        <a href='#about'>About Me</a>
                     </Nav.Item>
                     <Nav.Item>
-                        <Link to='#projects'>My Projects</Link>
+                        <a href='#projects'>Projects</a>
                     </Nav.Item>
                     <Nav.Item>
-                        <Link to='#contact'>Contact Me!</Link>
+                        <a href='#contact'>Contact Me!</a>
                     </Nav.Item>
 
                 </Nav>

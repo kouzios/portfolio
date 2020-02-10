@@ -1,9 +1,11 @@
 #about {
     background-image:url('/hero.png');
-    height: calc(100vh - 100px);
+    height: calc(100vh - 90px);
+    min-height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
+    padding: 0px !important;
 }
 
 #text {

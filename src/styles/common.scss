@@ -15,7 +15,6 @@ $brand-color: orange;
   src: local('Roboto-Regular'), url(../fonts/Roboto-Regular.ttf) format('truetype');
 }
 
-
 body {
   margin: 0;
   font-family: 'Roboto-Regular';
@@ -31,4 +30,8 @@ body, html, #root {
 
 a {
   color: $brand-color;
+}
+
+.centered-text {
+  text-align: center;
 }

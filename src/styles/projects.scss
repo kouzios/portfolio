@@ -1,3 +1,18 @@
 #projects img {
     border: 1px solid black;
+    width: 600px;
+    height: 400px;
+}
+
+#projects {
+    width: 100%;
+}
+
+.title {
+    padding-bottom: 10px;
+}
+
+#projects hr {
+    width: 25%;
+    border-color: rgb(161, 161, 214);
 }

@@ -32,15 +32,17 @@ class About extends Component {
                   I spend my time on Website Development both in personal projects and Internships.
                 </Row>
                 <Row className='entry'>
-                  And as an&nbsp;
-                  <OverlayTrigger
-                    placement="top"
-                    delay={{ show: 250, hide: 400 }}
-                    overlay={<Tooltip id='graduation'>B.S in Software Engineering expected: <b>May 23, 2020</b></Tooltip>}
-                  >
-                    <u>upcoming graduate</u>
-                  </OverlayTrigger>
-                  , I'm looking for a job! If you need a website developer for a full-time position please&nbsp;
+                  <span>
+                    And as an&nbsp;
+                    <OverlayTrigger
+                      placement="top"
+                      delay={{ show: 250, hide: 400 }}
+                      overlay={<Tooltip id='graduation'>B.S in Software Engineering expected: <b>May 23, 2020</b></Tooltip>}
+                    >
+                      <u>upcoming graduate</u>
+                    </OverlayTrigger>
+                    , I'm looking for a job! If you need a website developer for a full-time position please&nbsp;
+                  </span>
                   <Link title='Secondary contact navigation link' to='#contact'>
                     contact me here
                   </Link>

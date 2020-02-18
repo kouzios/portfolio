@@ -1,6 +1,7 @@
 {
   "short_name": "Portfolio",
-  "name": "Matthew Kouzios Portfolio",
+  "name": "Portfolio: Matthew Kouzios' personal projects",
+  "description": "A portfolio of Matthew Kouzios, a soon-to-be graduate from Milwaukee School of Engineering, encompasing his recent works.",
   "icons": [
     {
       "src": "favicon.ico",

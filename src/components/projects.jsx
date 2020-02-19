@@ -33,7 +33,7 @@ const Projects = () => (
     <div>
       <Col>
         <Row className='d-flex justify-content-center'>
-            <h1 className='title centered-text'>Projects!</h1>
+            <h1 className='title centered-text'>Projects</h1>
         </Row>
         {projects.map((project, index) => (
           <div className='sub-section'>

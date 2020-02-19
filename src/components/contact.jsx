@@ -16,6 +16,9 @@ class Contact extends Component {
                   <h3 className='title centered-text'>Contact Me!</h3>
                 </Row>
                 <Row className='d-flex justify-content-center'>
+                  <span>LinkedIn:&nbsp;</span><a title='Linkedin reference' href="https://www.linkedin.com/in/matthew-kouzios/">Matthew Kouzios</a>
+                </Row>
+                <Row className='d-flex justify-content-center'>
                   <span>Email:&nbsp;</span><a title='Mail link to my email' href="mailto:mkouzios@hotmail.com">mkouzios@hotmail.com</a>
                 </Row>
                 <Row className='d-flex justify-content-center'>

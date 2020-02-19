@@ -29,32 +29,30 @@ const projects =
   ];
 
 const Projects = () => (
-  <div className='projects'>
-    <Container>
-      <div>
-        <Col>
-          <Row className='d-flex justify-content-center'>
-              <h1 className='title centered-text'>Projects!</h1>
-          </Row>
-          {projects.map((project) => (
-             <div className='sub-section'>
-                <Row className='d-flex justify-content-center'>
-                <h5>
-                    <a href={project.github}>{project.title}</a>
-                </h5>
-                </Row>
-                <Row className='d-flex justify-content-center'>
-                    <img src={project.image} alt={project.title + ' gif'}/>
-                </Row>
-                <Row className='d-flex justify-content-center'>
-                    <span className='description'>{project.description}</span>
-                </Row>
-                <hr/>
-             </div>
-          ))}
-        </Col>
-      </div>
-    </Container>
-  </div>
+  <Container className='projects'>
+    <div>
+      <Col>
+        <Row className='d-flex justify-content-center'>
+            <h1 className='title centered-text'>Projects!</h1>
+        </Row>
+        {projects.map((project, index) => (
+          <div className='sub-section'>
+            <Row className='mb-2 d-flex justify-content-center'>
+              <h5><a href={project.github}>{project.title}</a></h5>
+            </Row>
+            <Row>
+              <Col>
+                  <img src={project.image} alt={project.title + ' gif'}/>
+              </Col>
+              <Col className='d-flex align-items-center'>
+                  <span className='description'>{project.description}</span>
+              </Col>
+            </Row>
+        {index < (projects.length-1) ? <hr/> : null /*Ensure no bottom-most separation bar*/} 
+          </div>
+        ))}
+      </Col>
+    </div>
+  </Container>
 );
 export default Projects

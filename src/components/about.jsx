@@ -12,7 +12,7 @@ import '../styles/about.scss'
 class About extends Component {
     render() {
       return (
-        <div id='about' className='d-flex justify-content-center align-items-center'>
+        <div className='about d-flex justify-content-center align-items-center'>
           <Container>
             <div id='text'>
               <Col>

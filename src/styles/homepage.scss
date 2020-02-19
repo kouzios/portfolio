@@ -1,15 +1,18 @@
 @import 'variable.scss';
-
-.section {
-    border-bottom: 25px solid white;
-    width: 100%;
-    background-color: #fafafa;
-}
-
-.primary-section {
-    padding: 20px 0px 20px 0px;
-} 
-
-#content {
+.content {
     width: 100vw;
+
+    .section {
+        border-bottom: 25px solid white;
+        width: 100%;
+        background-color: #fafafa;
+        margin: 0px;
+    }
+    
+    .primary-section {
+        padding: 20px 0px 20px 0px;
+        border-width: 1px 0px 1px 0px;
+        border-style: solid;
+        border-color: #e7e3e3;
+    } 
 }

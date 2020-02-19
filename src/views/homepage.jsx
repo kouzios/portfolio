@@ -10,15 +10,15 @@ import Projects from '../components/projects'
 class Homepage extends Component {
     render() {
       return (
-        <div id='content'>
+        <div className='content'>
             <Row className='section'>
-                <About/>
+                <About />
             </Row>
             <Row className='section primary-section'>
-                <Projects/>
+                <Projects />
             </Row>
             <Row className='section primary-section'>
-                <Contact/>
+                <Contact />
             </Row>
         </div>
       );

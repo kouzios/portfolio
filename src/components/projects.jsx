@@ -38,7 +38,7 @@ const Projects = () => (
         {projects.map((project, index) => (
           <div className='sub-section'>
             <Row className='mb-2 d-flex justify-content-center'>
-              <h5><a href={project.github}>{project.title}</a></h5>
+              <h5 className='git'><a href={project.github}>{project.title}</a></h5>
             </Row>
             <Row>
               <Col>

@@ -11,6 +11,10 @@
     .title {
         padding-bottom: 10px;
     }
+
+    .git {
+        text-transform: uppercase;
+    }
     
     hr {
         width: 25%;
@@ -20,23 +24,5 @@
     .description {
         margin-top: 15px;
         width: 50%;
-    }
-
-    .item-enter {
-        opacity: 0;
-    }
-    
-    .item-enter-active {
-        opacity: 1;
-        transition: opacity 500ms ease-in;
-    }
-
-    .item-exit {
-        opacity: 1;
-    }
-
-    .item-exit-active {
-        opacity: 0;
-        transition: opacity 500ms ease-in;
     }
 }

@@ -2,7 +2,7 @@
 
 .about {
     background-image:url('/hero.jpg');
-    height: calc(100vh - 90px);
+    height: calc(100vh - 65px);
     min-height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,5 +17,17 @@
 
     .entry {
         margin-left: auto;
+    }
+
+    #contact {
+        background-color: $brand-color-secondary !important;
+        border-color: $brand-color-secondary-dark !important;
+        color: $brand-color-primary;
+        font-weight: bold;
+        text-shadow: 1px 1px black;
+    }
+
+    #contact:hover {
+        border-color: $brand-color-secondary !important;
     }
 }

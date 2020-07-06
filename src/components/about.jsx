@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
-import { Link } from 'react-router-dom';
 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Tooltip from 'react-bootstrap/Tooltip';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Button from 'react-bootstrap/Button';
 
 import '../styles/about.scss'
 
@@ -23,9 +21,9 @@ class About extends Component {
                   Here's a little about me.
                 </h3>
                 <Row className='entry'>
-                  I'm a fourth year Software Engineering student at&nbsp;
-                  <a target="_blank" title='Homepage for MSOE' rel="noopener noreferrer" href='https://www.msoe.edu/'>
-                    Milwaukee School of Engineering!
+                  I'm a recent graduate from&nbsp;
+                  <a target="_blank" title='MSOE homepage' rel="noopener noreferrer" href='https://www.msoe.edu/'>
+                    Milwaukee School of Engineering
                   </a>
                 </Row>
                 <Row className='entry'>
@@ -33,22 +31,18 @@ class About extends Component {
                 </Row>
                 <Row className='entry'>
                   <span>
-                    And as an&nbsp;
-                    <OverlayTrigger
-                      placement="top"
-                      delay={{ show: 250, hide: 400 }}
-                      overlay={<Tooltip id='graduation'>B.S in Software Engineering expected: <b>May 23, 2020</b></Tooltip>}
-                    >
-                      <u>upcoming graduate</u>
-                    </OverlayTrigger>
-                    , I'm looking for a job! If you need a website developer for a full-time position please&nbsp;
+                    And as a recent graduate, I'm looking for a job! If you need a website developer for a full-time position please reach out!
                   </span>
-                  <Link title='Secondary contact navigation link' to='#contact'>
-                    contact me here
-                  </Link>
                 </Row>
-                <Row className='mt-5 d-flex justify-content-center'>
-                  (You can learn a little more about some of my projects being worked on below!)
+                <Row className='mt-2 d-flex justify-content-center'>
+                  <form action="https://www.linkedin.com/in/matthew-kouzios/">
+                    <Button id="contact" type="submit" title='Contact navigation link'>
+                      Contact me here!
+                    </Button>
+                  </form>
+                </Row>
+                <Row className='mt-2 d-flex justify-content-center'>
+                  You can learn a little more about some of my projects being worked on below!
                 </Row>
               </Col>
             </div>

@@ -24,7 +24,7 @@ const projects =
       title: "Google Chrome MTG Extension",
       github: "https://github.com/kouzios/telegram-man-page-bot",
       description: "This is a Google Chrome extension acting as a notepad to quickly store Magic The Gathering cards for deck building with a simple right mouse click action!",
-      image: "extension.png"
+      image: "extension.jpg"
     }
   ];
 

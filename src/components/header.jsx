@@ -9,24 +9,12 @@ import '../styles/header.scss'
 class Header extends Component {
     render() {
         return (
-            <Navbar className='d-flex justify-content-around'>
+            <Navbar className='d-flex justify-content-start'>
                 <Navbar.Brand>
                     <Link title='Link to bring you to this very page' to=''>
                         <img src="logo.png" alt="Matthew Kouzios" className="brand-logo"/>
                     </Link>
                 </Navbar.Brand>
-                <Nav>
-                    <Nav.Item>
-                        <a title='Jump to About' href='#about'>About Me</a>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <a title='Jump to Projects' href='#projects'>Projects</a>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <a title='Jump to Contact Me' href='#contact'>Contact Me!</a>
-                    </Nav.Item>
-
-                </Nav>
             </Navbar>
         )
     }

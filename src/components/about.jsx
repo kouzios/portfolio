@@ -31,7 +31,7 @@ class About extends Component {
                 </Row>
                 <Row className='entry'>
                   <span>
-                    And as a recent graduate, I'm looking for a job! If you need a website developer for a full-time position please reach out!
+                    I'm awaiting conditional employment for a government position, so I'm not currently looking for a job!
                   </span>
                 </Row>
                 <Row className='mt-2 d-flex justify-content-center'>

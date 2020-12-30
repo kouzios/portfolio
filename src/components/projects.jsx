@@ -29,6 +29,13 @@ const projects =
       description: "This is a Google Chrome extension acting as a notepad to quickly store Magic The Gathering cards for deck building with a simple right mouse click action!",
       display: "extension.jpg",
       display_type: "image",
+    },
+    {
+      title: "Two Blue",
+      github: "https://github.com/kouzios/2blue",
+      description: "This is a Magic: The Gathering deck building and virtual play website, built for assisting in your online games between friends and family.",
+      display: "twoblue.png",
+      display_type: "image",
     }
   ];
 

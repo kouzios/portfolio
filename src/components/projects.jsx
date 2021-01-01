@@ -36,6 +36,7 @@ const projects =
       description: "This is a Magic: The Gathering deck building and virtual play website, built for assisting in your online games between friends and family.",
       display: "twoblue.png",
       display_type: "image",
+      link: "https://www.twoblue.live"
     }
   ];
 
@@ -61,7 +62,11 @@ const Projects = () => (
                   }
               </Col>
               <Col className='d-flex align-items-center'>
-                  <span className='description'>{project.description}</span>
+                  <span className='description'>
+                    {project.description}
+                    {"\n"}
+                    {project.link ? <a href={project.link}>See it here</a>: null}
+                  </span>
               </Col>
             </Row>
             {index < (projects.length-1) ? <hr/> : null /*Ensure no bottom-most separation bar*/} 

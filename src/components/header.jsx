@@ -10,9 +10,7 @@ class Header extends Component {
         return (
             <Navbar className='d-flex justify-content-start'>
                 <Navbar.Brand>
-                    <Link title='Link to bring you to this very page' to=''>
-                        <img src="logo.png" alt="Matthew Kouzios" className="brand-logo"/>
-                    </Link>
+                    <img src="logo.png" alt="Matthew Kouzios" className="brand-logo"/>
                 </Navbar.Brand>
             </Navbar>
         )

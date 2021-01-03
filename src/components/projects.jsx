@@ -17,6 +17,14 @@ const projects =
       display_type: "video",
     },
     {
+      title: "Two Blue",
+      github: "https://github.com/kouzios/2blue",
+      description: "This is a Magic: The Gathering deck building and virtual play website, built for assisting in your online games between friends and family.",
+      display: "twoblue.png",
+      display_type: "image",
+      link: "https://www.twoblue.live"
+    },
+    {
       title: "Discord Meeting Scheduler Bot",
       github: "https://github.com/kouzios/mtg-card-extention",
       description: "This is a discord bot that enables you to schedule weekly meetings at a specified time!",
@@ -30,14 +38,6 @@ const projects =
       display: "extension.jpg",
       display_type: "image",
     },
-    {
-      title: "Two Blue",
-      github: "https://github.com/kouzios/2blue",
-      description: "This is a Magic: The Gathering deck building and virtual play website, built for assisting in your online games between friends and family.",
-      display: "twoblue.png",
-      display_type: "image",
-      link: "https://www.twoblue.live"
-    }
   ];
 
 const Projects = () => (
